@@ -1,0 +1,43 @@
+# Sesión 24 - Utilizando PHP en la práctica
+
+* Teniendo en cuenta el archivo **results.csv**, realizar una expresión regular en PHP que identifique los partidos empatados, ganados por un local y visitante.
+
+**SOLUCIÓN**
+
+```php
+<?php
+$file = fopen("../results.csv","r");
+
+$match   = 0;
+$nomatch = 0;
+
+$t = time();
+
+while(!feof($file)) {
+    $line = fgets($file);
+    # 2018-01-30,Jamaica,Korea Republic,2,2,Friendly,Antalya,Turkey,TRUE
+    if(preg_match(
+        '/^(\d{4}\-\d\d\-\d\d),(.+),(.+),(\d+),(\d+),.*$/i',
+        $line,
+        $m
+      )
+    ) {
+        if ($m[4] == $m[5]) {
+            printf("empate: ");
+        } elseif ($m[4] > $m[5]) {
+            echo "local:  ";
+        } else {
+            echo "visitante: ";
+        }
+        printf("\t%s, %s [%d-%d]\n", $m[2], $m[3], $m[4], $m[5]);
+        $match++;
+    } else {
+        $nomatch++;
+    }
+}
+fclose($file);
+
+printf("\n\nmatch: %d\nnomatch: %d\n", $match, $nomatch);
+printf("tiempo: %d\n", time() - $t);
+?>
+```

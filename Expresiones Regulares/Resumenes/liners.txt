@@ -1,0 +1,77 @@
+1
+12
+123
+1234
+123s45
+12345678910
+12345678910333
+12345678910a
+13453243
+url: https://www.instagram.com/p/BXB4zsUlW5Z/?taken-by=beco.mx 
+https://www.instagram.com/p/?codigo=123&tipo=administrador&modulo=blog 
+url: http://ins3tagram.com/p/blablablah
+url: http://itam.mx/test
+http://instagram.com/p/blablablah
+https://google.com
+https://cdn-microsoft.com/image/seui_5959.jpg
+https://sub.dom.inio.com/archivo.html
+csv1,csv2,csv3,csv4,csv5
+Rodrigo Jiménez Gutiérrez
+#FF0000
+#FF0000
+#cb0700
+#afaf
+123456
+#afafah
+#F0h
+#123abce
+#dF0f0a
+#1f11Fd
+#AFAFAF
+#1AFFa1
+#222fff
+#F00
+#F00
+#fff
+d#jsaja
+#kk43+Clicked
+555658
+56-58-11
+56.58.11
+69 87 80
+87 78 87#123
+76j67k78
+555658e123
+555658p122
++521765678
+56-58-11-12-34
+56.58.11.12.33
+302-345-9876
+302-345-98-76
+302-345-98.76
+esto.es.un.mail+gm_ail@mail.com
+esto.es_un.mail@mail.com
+david.angel96@360sec.com
+Carlos Angel
+David3 Garden
+Camilo Alejandro David Hernández Beltrán
+CamilooooAo Daviiiiiid
+davox martinez
+Camila Cabello
+Aña Flores
+Dua Lipa
+eDerson GuTierrez
+dominio.com
+rodrigo.jimeneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeez@yahoo.com.mx
+ruben@starbucks.com
+esto_no$es_email@dominio.com
+no_se_de_internet3@hotmail.com
+[LOG ENTRY] [ERROR] The system is unstable
+[LOG ENTRY] [WARN] The system may be down
+[LOG ENTRY] [LOG] Everything is OK
+[LOG ENTRY] [LOG] [user:@beco] Logged in
+[LOG ENTRY] [LOG] [user:@beco] Clicked here
+[LOG ENTRY] [LOG] [user:@beco] Rated the app
+[LOG ENTRY] [LOG] [user:@beco] Logged out
+sa
+#222fff
