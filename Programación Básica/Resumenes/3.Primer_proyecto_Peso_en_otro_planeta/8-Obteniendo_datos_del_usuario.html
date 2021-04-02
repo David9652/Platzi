@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peso En otro Planeta</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1> 
+    <p>En la Tierra pesas distinto que en Marte o Jupiter</p>
+
+    <script>
+        const jupiter_Gravity = 24.8;
+        const earth_Gravity = 9.8;
+        const mars_Gravity = 3.7;
+        var weight = prompt("¿Cuál es tu peso?");
+        var final_weight;
+        final_weight = (mars_Gravity * parseFloat(weight))/ (earth_Gravity);
+        final_weight = final_weight.toFixed(2);
+        document.write("Tu peso en Marte es: " + final_weight+ "<strong>kg</strong>");
+
+        /* 
+        ¿Qué tal si obtenemos ahora datos del usuario?
+
+        Recuerda:
+
+        La consola nos sirve para saber el estado de las variables
+
+        Cuando tienen un valor en comillas("") es un texto
+
+        Puedes usar la función prompt para recibir datos del usuario.
+
+        Concatenar es unir cadenas de texto a variables
+        */     
+    </script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Peso En otro Planeta</title>
+</head>
+<body>
+    <h1>Tu peso en otro planeta</h1> 
+    <p>En la Tierra pesas distinto que en Marte o Jupiter</p>
+
+    <script>
+        const jupiter_Gravity = 24.8;
+        const earth_Gravity = 9.8;
+        const mars_Gravity = 3.7;
+        var weight = parseFloat(prompt("¿Cuál es tu peso?"));
+        var planet = parseInt(prompt("Elige tu planeta \n 1 Marte o 2 Jupiter"))
+        var final_weight;
+        var planet_name;
+
+        if(planet == 1)
+        {
+            final_weight = (mars_Gravity * weight)/ (earth_Gravity);
+            planet_name = "Marte";
+        }
+        else if (planet == 2)
+        {
+            final_weight = (jupiter_Gravity * weight)/ (earth_Gravity);
+            planet_name = "Jupiter";
+        }
+        else{
+            final_weight = 10000000;
+            planet_name = "Gordolandia";
+        }
+        final_weight = final_weight.toFixed(2);
+        document.write("Tu peso en " + planet_name + " es " + final_weight+ "<strong>kg</strong>");
+
+        /* 
+        ¿Qué tal si ahora podemos elegir el planeta?
+
+        Creemos primero un algoritmo para resolver nuestro problema, para esto debemos aprender a usar 
+        condicionales.
+
+        Para escribir una condicional usas la palabra reservada if, puedes escribir una como
+
+        if (planeta == 1)
+        {
+        // Código si la condición se cumple
+        }
+        else
+        {
+        // Código si la condición no se cumple
+        }
+
+        Si quisiéramos tener tener varias condiciones podemos escribir nuevas condiciones con la palabra 
+        reservada else if
+
+        if (planeta == 1)
+        {
+        // Código si la condición se cumple
+        }
+        else if (planeta == 2)
+        {
+        // Código si la segunda condición se cumple
+        }
+        else
+        {
+        // Código si las condiciones no se cumple
+        }
+
+        VPN
+        Usuario: dangel
+        Password: WyvYgwaH$6#ReS6R
+        NESUS
+        360sec
+        &p0s31d0n&
+
+        Recuerda:
+            El nombre de los archivos deberían seguir las mismas reglas que los nombres de variables
+            El código debería ser fácil de leer
+        */     
+    </script>
+</body>
+</html>

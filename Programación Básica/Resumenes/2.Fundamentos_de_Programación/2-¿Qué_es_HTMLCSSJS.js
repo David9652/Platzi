@@ -1,0 +1,20 @@
+Clase 2 --- ¿Qué es HTML/CSS/JS?
+
+HTML, CSS y JavaScript son los tres lenguajes que están en el centro de crear aplicaciones web, en este curso vamos a enseñarte 
+principalmente JavaScript.
+
+HTML (lenguaje de marcado de hipertexto) = es el lenguaje donde se define la información o el contenido del documento, el formato de los 
+archivos es .html
+
+CSS (cascading style sheets) = el lenguaje donde se especifica el diseño del documento, maneja todo lo relacionado con la parte visual, el 
+formato de los archivos es .css
+
+JavaScript = el lenguaje que hace que todo sea interactivo, es realmente el lenguaje de programación que nos permite crear sitios web, el 
+formato de los archivos es .js
+
+El que realmente interpreta estos lenguajes es el Navegador.
+
+TIP: Se puede escribir CSS y JavaScript dentro de HTML, los profesionales normalmente escriben esto por separado.
+
+Programación --> Código que se escribe para que nuestros telefonos o computadores hagan algo.
+Interactividad --> Resultado de la programación
