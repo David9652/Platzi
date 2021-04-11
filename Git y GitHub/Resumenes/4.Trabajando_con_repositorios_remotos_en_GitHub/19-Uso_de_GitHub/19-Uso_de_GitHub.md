@@ -1,4 +1,4 @@
-# Sesión 19 - Usp de GitHub
+# Sesión 19 - Uso de GitHub
 
 * **GitHub** es una plataforma que nos permite guardar repositorios de **Git**, la cual podemos usar como servidores remotos y ejecutar algunos comandos de forma visual e interactiva (sin necesidad de la consola de comandos).
 
