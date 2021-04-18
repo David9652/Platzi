@@ -1,4 +1,4 @@
-# Sesión 41 Buscar en archivos y commits de Git con Grep y log
+# Sesión 41 - Buscar en archivos y commits de Git con Grep y log
 
 * A medida que nuestro proyecto se hace grande vamos a querer buscar ciertas cosas. Para buscar utilizamos el comando `$git grep word_to_search` y nos buscará en todo el proyecto los archivos en donde está la palabra a buscar.
 
